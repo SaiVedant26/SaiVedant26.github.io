@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond;
+}
+.navbar{
+    padding:5px;
+    background-color:slategray;
+}
+.navbar .menu{
+    overflow: auto;
+}
+.navbar .menu .bar{
+    float: right;
+    list-style: none;
+    margin: 10px 10px;
+}
+.navbar .menu .bar a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size:larger;
+}
+.navbar .menu .bar a:hover{
+    background-color: black;
+    transition: 0.5s ease;
+    border-radius: 7px;
+}
+img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bosy{
+    text-align: center;
+}
+.bosy a{
+    text-decoration: none;
+    color:black;
+    background-color: peachpuff;
+    padding:5px;
+    border-radius: 5px;
+}
+.bosy button{
+    color:whitesmoke;
+    background-color:coral;
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bosy a:hover{
+    background-color: white;
+    transition: 0.5s ease;
+}
