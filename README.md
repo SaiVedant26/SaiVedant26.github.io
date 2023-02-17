@@ -1,2 +1,2 @@
 ### Personal Website
-[https://saivedant26.github.io]
+https://saivedant26.github.io
